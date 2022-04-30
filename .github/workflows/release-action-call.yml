@@ -11,11 +11,11 @@ jobs:
     uses: ./.github/workflows/release-solution-with-inputs.yml
     with:
       #You can specify the solution name here
-      solution_name: ALMLab
+      solution_name: GitLab
       #Update your values here
-      BUILD_ENVIRONMENT_URL: <BUILD_ENVIRONMENT>
-      PRODUCTION_ENVIRONMENT_URL: <PROD_ENVIRONMENT>
-      CLIENT_ID: <APP_ID>
-      TENANT_ID: <TENANT_ID>      
+      BUILD_ENVIRONMENT_URL: https://startgit.crm.dynamics.com/
+      PRODUCTION_ENVIRONMENT_URL: https://endgit.crm.dynamics.com/
+      CLIENT_ID: b7a87573-f37c-4f7b-8873-a778819e3f59
+      TENANT_ID: 0894969e-b55e-451b-bc5b-663cedb44846     
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
