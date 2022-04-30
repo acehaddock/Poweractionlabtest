@@ -26,7 +26,7 @@ on:
 env:
 #edit your values here
   ENVIRONMENT_URL: 'https://startgit.crm.dynamics.com'
-  CLIENT_ID: 'b7a87573-f37c-4f7b-8873-a778819e3f59'
+  CLIENT_ID: '1e2593db-5481-4397-9b37-2d9ee19d0a5f'
   TENANT_ID: '0894969e-b55e-451b-bc5b-663cedb44846'
 
 jobs:
